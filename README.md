@@ -13,6 +13,7 @@ The Shiny app was designed to provide a visualization of late flights leaving th
 * I would like to update the format of the calendar heat map so each row is a day of the week making possible weekly patterns more apparent. 
 * I would like to create a more dynamic definition of canceled flights. Currently all late flights are defined as a 4 hour delay. For days where there are few cancelations this feels reasonable, as travelers could most likely be rebooked onto other flights within 4 hours. For days where there are many cancellations, such as February 8th and 9th when there was a large snowstorm in NYC, there were no flights from 4PM February 8th until 11AM February 9th, a period of 19 hours. These two types of cancelations are not equivalent.
 * I would like to create a more dynamic definition of delayed flights based on how late the flights are. I would probably use the FAA definitions for small, medium, and large delays and provide different weights to each classification
+* Make the threshold for defining a late flight definable by the user. Perhaps input a slider into the app. This would probably reuqire reoirienting the main layout as I am currenlty not sure where a slider could go without disrupting the asthetic. 
 
 The project has been deployed here:
 https://evan-canfield.shinyapps.io/Design_Contest/
