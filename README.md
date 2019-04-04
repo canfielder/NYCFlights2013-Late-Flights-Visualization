@@ -1,14 +1,14 @@
 # NYCFlights13-Late-Flights-Visualization
 An analysis of the NYCFligths13 Dataset visualizing late flights through a Shiny app.
 
+![Screenshot](https://user-images.githubusercontent.com/38056064/55563972-e8279e00-56c4-11e9-8a17-87a40ae0093b.png)
+
 This project was completed for the Spring 2019 session of UNC Charlotte’s DSBA 5122: Visual Analytics class. The project was a group project completed with Rommel Badilla and Chandra Reddy. Some small updates have been made since the project submittal.
 
 The Shiny app was designed to provide a visualization of late flights leaving the NYC airports (JFK, LaGuardia, and Newark) in 2013. In order to create the visualization the following data manipulations were performed on the NYCFlights13 dataset:
 * Airports were restricted to being within the Continental US and being within the top 20 airports by total flights. This was done to simplify the output plots which showed late flights by destination. 
 *	A late flight was defined as any flight arriving 15 minutes late or greater. This corresponds to FAAs definition of a Medium Delay. A binary column was created identifying if a flight qualified as late (1) or not (0). (https://en.wikipedia.org/wiki/Flight_cancellation_and_delay)
 *	Canceled flights were flights in the dataset where a date, flight number, and scheduled departure and arrival times existed, but not actual departure and arrival times were recorded. Canceled flights were modeled as equivalent to a 4-hour delay.
-
-https://user-images.githubusercontent.com/38056064/55563972-e8279e00-56c4-11e9-8a17-87a40ae0093b.png
 
 # Potential Future Updates:
 * Calendar heat map: Update the format of the calendar heat map so each row is a day of the week making possible weekly patterns more apparent. 
