@@ -16,4 +16,4 @@ The Shiny app was designed to provide a visualization of late flights leaving th
 * Make the threshold for defining a late flight definable by the user. Perhaps input a slider into the app. This would probably reuqire reoirienting the main layout as I am currenlty not sure where a slider could go without disrupting the asthetic. 
 
 The project has been deployed here:
-https://evan-canfield.shinyapps.io/Design_Contest/
+https://evan-canfield.shinyapps.io/nycflights13_visualization/
